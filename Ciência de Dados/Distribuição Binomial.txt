@@ -1,0 +1,14 @@
+Distribuição Binomial (ex: jogar 5 moedas, qual a probabilidade de dar cara 3 vezes?)
+
+  - Número fixo de experimentos (no ex: 5)
+  - Cada experimento só pode ter 2 resultados: Sucesso ou Fracasso (no ex: acertar o lado da moeda ou não)
+  - A probabilidade de sucesso deve ser a mesma em cada experimento (no ex: 50 %)
+  - Os experimentos devem ser independentes (no ex: o resultado da primeira moeda não influencia no resultado da segunda moeda)
+  - A DISTRIBUIÇÃO NÃO PODE SER USADA NO CASO EM QUE NÃO HÁ REPOSIÇÃO DE BOLAS POR EXEMPLO
+
+  x -- Total de sucesso esperado do número de experimentos (no ex: 3 caras)
+  p -- Probabilidade de sucesso
+  n -- Número de experimentos
+  1 - p -- Probabilidade de fracasso
+
+  f(x) = C(n,x) * p^x * (1-p)^(n-x)
